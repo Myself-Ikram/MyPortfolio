@@ -1,0 +1,26 @@
+.r{
+    height : 300px;
+}
+
+.resume-title-block{
+    box-shadow: 8px 0 4px -4px rgb(133, 130, 130);
+    border-bottom: 1px dashed #ff5823 ;
+}
+.resume-icon-title{
+    text-decoration: none;
+    color: black;
+}
+.resume-titles:hover{
+    color: #ff5823;
+}
+.resume-titles{
+    padding-left: 2px;
+    list-style: none !important; 
+    margin-top: 17px;
+    outline: none;
+}
+.resume-titles:focus{
+    background-color: #332d2d;
+    border-radius: 5px;
+    color : white;
+}

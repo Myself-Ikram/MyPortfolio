@@ -1,0 +1,42 @@
+.nav-btns{
+    margin: 0.5rem 0.6rem;
+	border-radius: 9px;
+}
+.nav-btns:hover{
+	color: #ff5823 !important;
+}
+.hire:hover{
+	margin-right: 25px !important;
+}
+.resume:hover{
+	margin-left: 25px !important;
+}
+/* CURVE */
+.geeks {
+	padding: 70px;
+	text-align: center;
+}
+
+.section {
+	width: 100%;
+	min-height: 50px;
+}
+
+.pattern {
+	position: relative;
+	background-image: linear-gradient(315deg,
+			#333333 0%, #333333 74%);
+}
+
+.pattern:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* CURVE */
