@@ -72,9 +72,3 @@ function Home() {
 }
 
 export default Home;
-{
-  /* <Typical
-        steps={['React Developer !', 2500, 'Full Stack Developer !', 2500, 'MERN Stack Developer !', 2500]}
-        loop={Infinity}
-        wrapper="p"       /> */
-}
