@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Typical from "react-typical";
 import NavBar from "./Navbar";
 import {
   BsFacebook,
