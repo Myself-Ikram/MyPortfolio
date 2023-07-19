@@ -5,24 +5,19 @@ export default function Projects() {
   return (
     <Container className="r pt-2">
       <Project
+        title="Quiz Application"
+        subtitle="ReactJs/Redux,Bootstrap,ExpressJs,MongoDB"
+        desc="Built MERN stack quiz app with Redux for state management, delivering an interactive and seamless quiz-taking experience."
+      />
+      <Project
         title="Chat Application"
         subtitle="HTML/CSS,Bootstrap,ExpressJs,MongoDB"
-        desc="This web application makes it easy to communicate with people by sending and receiving messages."
+        desc="Created chat app with HTML/CSS/Bootstrap frontend, Express.js/MongoDB backend, enabling real-time communication and efficient data storage."
       />
       <Project
         title="Portfolio Website"
         subtitle="ReactJs,Bootstrap"
-        desc="A portfolio website is a unique way to showcase your work and let others know about yourself. It’s like an evergreen platform for your projects, case studies, and information about you."
-      />
-      <Project
-        title="Quiz Application"
-        subtitle="ReactJs/Redux,Bootstrap,ExpressJs,MongoDB"
-        desc="A web application which takes quiz and analyses your programming knowledge.It stores result in database only after completion of the quiz upto that stage the data is stored in browser using redux."
-      />
-      <Project
-        title="TravelX Website"
-        subtitle="HTML/CSS,Bootstrap"
-        desc="This website is mainly focuses on implementing bootstrap in order to build a responsive travelling website."
+        desc="Built portfolio website using React.js, showcasing skills, projects, and achievements with modern UI/UX and responsive design"
       />
     </Container>
   );
