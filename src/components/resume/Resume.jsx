@@ -7,6 +7,7 @@ import Education from "./ResumeDesc/Education";
 import Skills from "./ResumeDesc/Skills";
 import Projects from "./ResumeDesc/Projects";
 import Interests from "./ResumeDesc/Interests";
+import CollegeProjects from "./ResumeDesc/CollegeProjects";
 import {
   FaUserGraduate,
   FaHistory,
@@ -48,6 +49,7 @@ export default function Resume() {
                 <Col className=" ps-3">
                   <Tab className="resume-titles">Education</Tab>
                   <Tab className="resume-titles">Programming Skills</Tab>
+                  <Tab className="resume-titles">College Projects</Tab>
                   <Tab className="resume-titles">Projects</Tab>
                   <Tab className="resume-titles">Work History</Tab>
                   <Tab className="resume-titles">Interests</Tab>
@@ -62,6 +64,9 @@ export default function Resume() {
             </TabPanel>
             <TabPanel>
               <Skills />
+            </TabPanel>
+            <TabPanel>
+              <CollegeProjects />
             </TabPanel>
             <TabPanel>
               <Projects />
