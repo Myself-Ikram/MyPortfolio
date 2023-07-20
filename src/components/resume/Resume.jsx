@@ -14,6 +14,7 @@ import {
   FaLaptopCode,
   FaChartBar,
   FaFire,
+  FaGratipay
 } from "react-icons/fa";
 import "./Resume.css";
 
@@ -34,9 +35,6 @@ export default function Resume() {
                     <FaUserGraduate />
                   </p>
                   <p className="text-light text-center">
-                    <FaHistory />
-                  </p>
-                  <p className="text-light text-center">
                     <FaLaptopCode />
                   </p>
                   <p className="text-light text-center">
@@ -44,6 +42,12 @@ export default function Resume() {
                   </p>
                   <p className="text-light text-center">
                     <FaFire />
+                  </p>
+                  <p className="text-light text-center">
+                    <FaHistory />
+                  </p>
+                  <p className="text-light text-center">
+                    <FaGratipay />
                   </p>
                 </Col>
                 <Col className=" ps-3">
